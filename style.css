@@ -271,3 +271,63 @@ body{
         width:360px;
     }
 }
+
+.rto{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.booli{
+    width: 84%;
+    display: flex;
+    
+}
+.eror{
+    width: 50%;
+   
+}
+.loset{
+    width: 628px;
+    font-size: 50px;
+    color: rgb(117, 172, 253);
+}
+.wert{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+.wrt{
+    width: 500px;
+    text-align: left;
+}
+
+
+
+@media (max-width:1500px) {
+    .loset{
+        font-size: 40px;
+        width: 90%;
+    }
+    
+}
+@media (max-width:1050px) {
+    .booli{
+        display: flex;
+        flex-direction: column;
+    }
+    .eror{
+        width: 100%;
+    }
+    .wert{
+        width: 100%;
+    }
+    .wrt{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .loset{
+        width: 100%;
+    }
+}
+
