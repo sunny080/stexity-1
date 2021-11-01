@@ -74,7 +74,7 @@ body{
 }
 
 .folp{
-    height: 100vh;
+    height: 95vh;
     background-image: url(solo.jpg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -82,7 +82,7 @@ body{
     width:100%;
 }
 .eran{
-    padding-top: 400px;
+    padding-top: 300px;
     font-size: 60px;
     margin-left: 20%;
 }
