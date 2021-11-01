@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding:0 ;
+    font-family: sans-serif
+}
+body{
+    background-color:#1b1c5f;
+    
+}
+.slot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+body{
+    color: #fff;
+    min-width: 365px;
+}
+
+.loop{
+    min-width: 365px;
+    position: absolute;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.yip{
+    width:60px;
+    height: 60px;
+    cursor: pointer;
+    box-shadow: 0px 2px 20px rgb(243, 243, 243) ;
+    background-color: rgb(231, 229, 229);
+    border-radius: 10px;
+}
+.yip:hover{
+    box-shadow: 0px 2px 25px white;
+    background-color: #fff;
+}
+.hp{
+    list-style:none ;
+    text-decoration:none ;
+    display: flex;
+    margin-top: 22px
+}
+.goop{
+    margin: 0 10px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 5px;
+    
+}
+.goop:hover{
+    color: rgb(209, 228, 245);
+}
+.goop::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    transform: scale(0.1);
+    transform-origin: 0% 100%;
+    transition: transform .6s ease;
+}
+.goop:hover::after{
+    transform: scale(1,1);
+    
+}
+
+.folp{
+    height: 100vh;
+    background-image: url(solo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    width:100%;
+}
+.eran{
+    padding-top: 400px;
+    font-size: 60px;
+    margin-left: 20%;
+}
+.op{
+    margin-left: 20%;
+    font-size: 35px;
+    margin-top: 30px;
+}
+.topi{
+    margin-top: 35px;
+    width: 150px;
+    margin-left: 20%;
+    height: 55px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(99, 172, 221);
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.topi:hover{
+    width: 160px;
+    height: 50px;
+    transition: .3s;
+    color:rgb(255, 255, 255);
+    
+}
+@media (max-width:700px) {
+    .eran{
+        margin-left: 10%;
+    }
+    .op{
+        margin-left: 10%;
+    }
+    .topi{
+        margin-left: 10%;
+    }
+    .mai{
+        margin-right: 0;
+    }
+    
+}
+@media (max-width:550px){
+    
+    .op{
+        font-size: 25px;
+        margin-left: 5%;
+    }
+    .eran{
+        margin-left:5% ;
+
+    }
+    .topi{
+        margin-left: 5%;
+    }
+    .goop{
+        font-size:15px ;
+    }
+    .hp{
+        margin-top: 18px;
+    }
+    .yip{
+        width: 50px;
+        height: 50px;
+    }
+}
+.born{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+}
+.born::before{
+  content: '';
+  position: absolute;
+  bottom: 52px;
+  left: 0;
+
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top,#1b1c5f,transparent);
+  z-index: 10;
+
+}
+
+.ra{
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+@media (max-width:650px) {
+    .ra{
+    font-size:25px ;
+    }   
+    .born::before{
+        bottom:30px;
+    } 
+}
+
+
+
+.BHOP{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+   
+}
+
+.kio{
+    color:black;
+    display: flex;
+    flex-direction:column ;
+    border-radius: 10px;
+    text-align: center;
+    width: 20%;
+    height: 380px;
+    background: #fff;
+    box-shadow: 0px 2px 10px black ;
+    margin: 10px 10px;
+    cursor:default;
+
+}
+.dell{
+    width: 100%;
+}
+.dell:hover .lki{
+    height: 70px;
+    width: 70px;
+    transition: .3s;
+}
+
+.voli{
+    text-align: center;
+
+
+}
+.voli:hover .bld {
+    margin-top: 30px;
+    transition: .3s;
+}
+.voli:hover .inte {
+    text-shadow: 0 2px 20px black;
+    transition: .3s;
+}
+.lki{
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    
+}
+
+.bld{
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(29, 29, 95);
+}
+.inte{
+    margin-top: 25px;
+    font-size: 15px;
+    line-height: 25px;
+    font-style: italic;
+    width:80%;
+    margin-left: 10%;
+
+}
+@media (max-width:1230px ) {
+    .kio{
+        width: 370px;
+    }
+    
+}
+@media (max-width:790px ) {
+    .kio{
+        width: 320px;
+    }
+    
+}
+@media (max-width:680px ) {
+    .kio{
+        width:360px;
+    }
+}
