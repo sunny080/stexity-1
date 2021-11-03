@@ -470,3 +470,220 @@ a{
     
 
 }
+.jupiter{
+    padding-top: 100px;
+    background-color: rgb(78, 78, 238);
+    width: 100%;
+    display: flex;
+
+}
+.losen{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+
+}
+.Get{
+    font-size: 30px;
+    font-weight: 100;
+    width: 100%;
+}
+.lolf{
+    margin-top: 20px;
+}
+.holl{
+    width: 400px;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(13, 13, 73);
+    padding-left: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    box-shadow: 0 2px 10px rgb(0, 0, 0);
+
+}
+.holl:focus{
+    background-color: #fff;
+    color: black;
+    transition: .3s;
+}
+.holi{
+    width: 400px;
+    margin-top: 20px;
+    height: 100px;
+    padding-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(13, 13, 73);
+    padding-left: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0 2px 10px rgb(0, 0, 0);
+    outline: none;
+
+
+}
+.holi:focus{
+    background-color: #fff;
+    color: black;
+    transition: .3s;
+}
+.ert{
+    margin-top: 20px;
+    height: 50px;
+    border-radius:10px ;
+    width: 130px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.ert:hover{
+    background-color: rgb(13, 13, 73);
+    color: #fff;
+    width: 150px;
+    transition: .5s;
+    box-shadow: 0 2px 10px rgb(0, 0, 0);
+
+}
+.amrca{
+    padding-bottom: 50px;
+}
+.amrca{
+    width: 50%;
+    padding-left:10% ;
+}
+.enter{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.dimp{
+    box-shadow: 2px 2px 10px black ;
+    border-radius: 5px;
+    margin-top: 20px;
+   
+}
+@media (max-width:1150px) {
+    .jupiter{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    .losen{
+        width: 60%;
+        justify-content: center;
+        padding-left: 5%;
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    .holl{
+    display: flex ;
+    justify-content:center ;
+    
+    }
+    .amrca{
+        margin-top: 50px;
+        width: 60%;
+        padding-left: 5%;
+        
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    
+}
+@media (max-width:600px){
+    .dimp{
+        width: 350px;
+        height: 200px;
+    }
+    .holl{
+        width: 250px;
+
+    }
+    .holi{
+     width: 250px;
+    }
+}
+.did{
+    width: 100%;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom:50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tity{
+     width: 50px;
+     height: 50px;
+}
+#wrt{
+    color: rgb(65, 65, 228);
+    font-size: 50px;
+}
+#erty{
+    color: rgb(62, 155, 218) ;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.vir{
+    display: flex;
+}
+#sdf{
+    color: rgb(247, 93, 152);
+    font-size: 50px;
+    margin-left: 10px;
+}
+.gog{
+    cursor: pointer;
+}
+#zxc{
+    color: rgb(37, 103, 158);
+    font-size: 50px;
+    margin-left: 10px;
+}
+.gog:hover{
+    font-size: 55px;
+    transition: .2s;
+}
+#wrt:hover{
+    font-size: 60px;
+    transition: .3s;
+}
+#erty:hover{
+    font-size: 60px;
+    transition: .3s;
+}
+#sdf:hover{
+    font-size: 60px;
+    transition: .3s;
+}
+#zxc:hover{
+    font-size: 60px;
+    transition: .3s;
+}
+.fol{
+    background-color:#fff ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+.jin{
+    text-align: center;
+    color: black;
+    font-size: 15px
+}
