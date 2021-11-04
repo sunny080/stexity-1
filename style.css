@@ -19,8 +19,7 @@ body{
 body{
     color: #fff;
     min-width: 365px;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
+   
 }
 
 .loop{
@@ -577,6 +576,7 @@ a{
 }
 .amrca{
     padding-bottom: 50px;
+    width: 50%;
 }
 .amrca{
     width: 50%;
@@ -600,16 +600,54 @@ a{
         display: flex;
     }
     .losen{
-        width: 60%;
+        width: 100%;
         justify-content: center;
-        padding-left:5%;
-        
+        padding-left:0;
+        text-align: center;
         display: flex;
         flex-direction: column;
         
 
     }
-    .holl{
+    .bob
+{
+    
+    display: flex;
+    width: 60%;
+    background-color: red;
+    
+    margin-left: 20vh;
+    padding-left: 12%;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.gol{
+    display: flex;
+    justify-content: center;
+    padding-right: 23vh;
+} 
+@media (max-width:800px) {
+    .bob{
+     margin-left: 10vh;
+    }
+    .gol{
+        padding-left:17vh ;
+        
+    }
+    
+}
+@media (max-width:630px) {
+    .bob{
+     margin-left: 0vh;
+     width: 100%;
+     padding-left: 16%;
+    }
+   
+    
+} 
+.holl{
+
     display: flex ;
     justify-content:center ;
     
@@ -622,7 +660,7 @@ a{
    }
     .amrca{
         margin-top: 50px;
-        width: 60%;
+        width: 50%;
         padding-left: 5%;
         
         justify-content: center;
@@ -666,19 +704,20 @@ a{
 }
 #wrt{
     color: rgb(65, 65, 228);
-    font-size: 50px;
+    font-size: 30px;
 }
 #erty{
     color: rgb(62, 155, 218) ;
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 10px;
 }
 .vir{
     display: flex;
+    margin-top: 15px;
 }
 #sdf{
     color: rgb(247, 93, 152);
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 10px;
 }
 .gog{
@@ -686,7 +725,7 @@ a{
 }
 #zxc{
     color: rgb(37, 103, 158);
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 10px;
 }
 .gog:hover{
@@ -694,19 +733,19 @@ a{
     transition: .2s;
 }
 #wrt:hover{
-    font-size: 60px;
+    font-size: 40px;
     transition: .2s;
 }
 #erty:hover{
-    font-size: 60px;
+    font-size: 40px;
     transition: .2s;
 }
 #sdf:hover{
-    font-size: 60px;
+    font-size: 40px;
     transition: .2s;
 }
 #zxc:hover{
-    font-size: 60px;
+    font-size: 40px;
     transition: .2s;
 }
 .fol{
@@ -720,5 +759,127 @@ a{
 .jin{
     text-align: center;
     color: black;
-    font-size: 15px
+    font-size: 15px;
+    
+}
+.non{
+    width: 100%;
+    display:flex;
+    background-color:  rgb(17, 17, 82);
+    padding-top:50px ;
+    padding-bottom: 50px;
+
+}
+.mum{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+
+}
+.lopo{
+    width: 300px;
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255);
+
+}
+.lopo:hover{
+    background-color:rgb(243, 243, 243) ;
+}
+.duf{
+   margin-top: 30px;
+   outline: none;
+   border: none;
+   border-radius: 8px;
+   width: 300px;
+   height: 100px;
+   padding-top: 10px;
+   padding-left: 10px;
+}
+.duf:hover{
+    background-color:rgb(243, 243, 243) ;
+}
+.futt{
+    width: 130px;
+    background-color: #fff;
+    color: black;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+
+}
+.joi{
+    margin-top: 15px;
+    font-size:17px;
+}
+.shop{
+    width: 50%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+.jui{
+    margin-top: 15px;
+    font-size: 17px;
+}
+.hopi{
+  margin-top: 20px;
+
+
+}
+@media (max-width:1050px) {
+    .mum{
+        padding-left: 0;
+    }
+    .shop{
+        padding-left: 0;
+    }
+    
+}
+@media (max-width:850px){
+    .non{
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: center;
+    }
+    .mum{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .shop{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .lopo{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .duf{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .huo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .hopi{
+        width: 80%;
+        margin-left: 10%;
+    }
+
 }
