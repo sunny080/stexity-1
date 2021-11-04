@@ -396,6 +396,51 @@ body{
     }
    
 }
+
+
+
+
+
+.jimo{
+    background-color: #1b1c5f;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.gigi{
+    width: 400px;
+    height:300px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+@media (max-width:1420px) {
+    .gigi{
+        width: 500px;
+        height: auto;
+    }
+    
+}
+@media (max-width:1050px) {
+    .gigi{
+        width: 400px;
+        height: auto;
+    }
+    
+}
+@media (max-width:860px) {
+    .gigi{
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+    }
+    
+}
+
+
 a{
     color: #fff;
 }
@@ -687,7 +732,7 @@ a{
 .did{
     width: 100%;
     
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     padding-top: 50px;
     padding-bottom:50px;
     display: flex;
